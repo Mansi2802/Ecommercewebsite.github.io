@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+}
+.navbar ul li{
+    display: inline;
+    padding: 26px 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    color: grey;
+}
+.rightnav{
+    width: 55%;
+    text-align: center;
+    padding: 0px 23px;
+    justify-content: right;
+    display: flex;
+}
+.rightnav a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.rightnav a:hover{
+    color: grey;
+}
+
+
+
+

@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Yuji+Syuku&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #a2d4d0;
+}
+
+
+
+.images 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0,0,0,0.596)),url("https://qphs.fs.quoracdn.net/main-qimg-a1886bc0e24594237e778e80e0ec7701"); */
+    /* background:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0,0,0,0.596)),url("https://image.freepik.com/free-photo/shopping-carts-blue-background-with-copy-space_23-2148288225.jpg"); */
+    /* background:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0,0,0,0.596)),url("https://image.freepik.com/free-photo/person-holding-small-grocery-cart-with-gift-boxes_23-2147950564.jpg"); */
+    background:linear-gradient(rgba(0, 0, 0, 0.596),rgba(0,0,0,0.596)),url("https://image.freepik.com/free-photo/dark-wall-empty-room-with-plants-floor-3d-rendering_41470-3847.jpg");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.img-content
+{
+  justify-content: right;
+  font-size: 50px;
+  color: white;
+}
+
+
+.end {
+    position: relative;
+    /* top: 125em; */
+  }
+  
+  .foot {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 18em;
+    align-items: flex-start;
+  }
+  
+  .item {
+    padding: 20px;
+    margin: 20px 100px;
+    font-size: 18px;
+    width: 25em;
+  }
+  
+  .subitem {
+    padding: 13px;
+    font-size: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* .image img
+  {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  
+  } */
