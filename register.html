@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registration</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
@@ -111,8 +111,7 @@
         width: 70px;
         height: 70px;
         border:5px solid rgba(255, 255, 255, 0.527) ;
-        /* background-color: white; */
-        /* border-radius: 50%; */
+        
         position: absolute;
     }
     .wrapper div:nth-child(1)
@@ -222,7 +221,7 @@
             <div></div>
         </div>
             <div class="center">
-                <h1>Login</h1>
+                <h1>Register</h1>
                 <form action="" method="post">
                     <div class="content">
                         <input type="text" name="username" placeholder="Username" required>
@@ -230,13 +229,16 @@
                     <div class="content">
                         <input type="password" name="password" placeholder="Password" required>
                     </div>
+                    <div class="content">
+                        <input type="email" name="email" placeholder="Enter you Email" required>
+                    </div>
                     <div class="submit">
-                      <input type="submit" name="Login" value="Login">  
+                      <input type="submit" name="Register" value="Register">  
                     </div>
                     
                     <div class="register">
-                        Not a Member ?
-                        <a href="register.html">Register</a>
+                        Have a account ?
+                        <a href="login.html">Login</a>
                     </div>
                 </form>
             </div>
